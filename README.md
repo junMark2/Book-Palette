@@ -106,3 +106,64 @@ If ERD generation is not supported by Copilot Tasks, explicitly inform me so I c
   - Skip advanced security features and highly complex optimizations.
   - Omit detailed visual design considerations for now; these will be addressed separately.
   - Notify me explicitly if tasks, particularly ERD generation or external API integrations, cannot be completed directly by Copilot. I will provide assistance manually.
+
+## How to run the project
+
+### Setting up the Django backend
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/junMark2/Book-Palette.git
+   cd Book-Palette/backend
+   ```
+
+2. Create and activate a virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Apply the migrations:
+   ```bash
+   python manage.py migrate
+   ```
+
+5. Create a superuser:
+   ```bash
+   python manage.py createsuperuser
+   ```
+
+6. Run the development server:
+   ```bash
+   python manage.py runserver
+   ```
+
+### Setting up the Vue.js frontend
+
+1. Navigate to the frontend directory:
+   ```bash
+   cd ../frontend
+   ```
+
+2. Install the required packages:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run serve
+   ```
+
+### Running the project locally
+
+1. Ensure both the Django backend and Vue.js frontend servers are running.
+
+2. Open your web browser and navigate to `http://localhost:8080` to access the Vue.js frontend.
+
+3. The Vue.js frontend will communicate with the Django backend running at `http://localhost:8000`.
