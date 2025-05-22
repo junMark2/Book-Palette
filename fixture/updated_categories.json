@@ -1,0 +1,138 @@
+[
+    {
+        "model": "books.category",
+        "pk": 0,
+        "fields": {
+            "name": "전체",
+            "color": "#FFFFFF"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 1,
+        "fields": {
+            "name": "로맨스",
+            "color": "#FF9AA2"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 2,
+        "fields": {
+            "name": "판타지/무협",
+            "color": "#B5A1DD"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 3,
+        "fields": {
+            "name": "추리/스릴러",
+            "color": "#355C7D"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 4,
+        "fields": {
+            "name": "공포",
+            "color": "#23272A"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 5,
+        "fields": {
+            "name": "사회/문화",
+            "color": "#BCAAA4"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 6,
+        "fields": {
+            "name": "예술/대중문화",
+            "color": "#A7C7E7"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 7,
+        "fields": {
+            "name": "시/문학",
+            "color": "#D6CDEA"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 8,
+        "fields": {
+            "name": "과학/기술",
+            "color": "#61C0BF"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 9,
+        "fields": {
+            "name": "역사",
+            "color": "#8B3A3A"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 10,
+        "fields": {
+            "name": "인문/철학",
+            "color": "#7B8D8E"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 11,
+        "fields": {
+            "name": "정신분석/심리",
+            "color": "#FFA64D"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 12,
+        "fields": {
+            "name": "아동",
+            "color": "#FFF176"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 13,
+        "fields": {
+            "name": "자연/여행",
+            "color": "#A8D5BA"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 14,
+        "fields": {
+            "name": "SF/공상과학",
+            "color": "#76FF7A"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 15,
+        "fields": {
+            "name": "경제/경영",
+            "color": "#256D1B"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 16,
+        "fields": {
+            "name": "건강/의학",
+            "color": "#C1E1C1"
+        }
+    }
+]

@@ -1,0 +1,1202 @@
+[
+  {
+    "model": "books.book",
+    "pk": 0,
+    "fields": {
+      "title": "이방인",
+      "author": "알베르 카뮈 (지은이), 이휘영 (옮긴이)",
+      "publisher": "문예출판사",
+      "pub_date": "2025-05-23",
+      "description": "실존주의의 문학적 승리, 나아가 부조리에 대한 깊은 통찰과 신랄한 고발로 격찬받는 카뮈의 대표작이다. 카뮈가 노벨문학상을 받는 데 결정적 기여를 한 작품이기도 하다. 카뮈에게 부조리는 이성을 가진 자가 마주할 수밖에 없는 비극적 운명에 관한 것이다.",
+      "isbn": "9788931025019",
+      "cover_image": "https://image.aladin.co.kr/product/36428/86/coversum/8931025017_1.jpg",
+      "category_name": "로맨스",
+      "category_color": "#FF9AA2",
+      "price": 8000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 1,
+    "fields": {
+      "title": "위기의 여자",
+      "author": "시몬 드 보부아르 (지은이), 손장순 (옮긴이)",
+      "publisher": "문예출판사",
+      "pub_date": "2025-05-23",
+      "description": "시몬 드 보부아르는 사랑에서 남녀 간의 자유롭고 평등한 관계를 중요시했고 그런 자신의 독특한 결혼관을 사르트르와 계약 결혼을 통해 실천했다. 이 작품은 보부아르가 60세에 발표한 소설로 여성이 억압적인 현실을 인식하고 자신의 존재를 자각하는 과정을 냉정하게 그려나간다.",
+      "isbn": "9788931024951",
+      "cover_image": "https://image.aladin.co.kr/product/36429/14/coversum/8931024959_1.jpg",
+      "category_name": "로맨스",
+      "category_color": "#FF9AA2",
+      "price": 11000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 2,
+    "fields": {
+      "title": "모파상 단편선",
+      "author": "기 드 모파상 (지은이), 김동현, 김사행 (옮긴이)",
+      "publisher": "문예출판사",
+      "pub_date": "2025-05-23",
+      "description": "기 드 모파상은 안톤 체호프와 함께 단편 소설의 기틀을 다진 작가라고 평가받는다. 더불어 18세기 자연주의 작가 중 가장 뛰어나다고도 일컬어진다. 모파상은 10여 년간의 짧은 작가 생활 동안 무려 3백여 편의 단편과 여섯 편의 장편을 남겼다.",
+      "isbn": "9788931025033",
+      "cover_image": "https://image.aladin.co.kr/product/36429/18/coversum/8931025033_1.jpg",
+      "category_name": "로맨스",
+      "category_color": "#FF9AA2",
+      "price": 8000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 3,
+    "fields": {
+      "title": "보바리 부인",
+      "author": "귀스타브 플로베르 (지은이), 민희식 (옮긴이)",
+      "publisher": "문예출판사",
+      "pub_date": "2025-05-23",
+      "description": "1851년, 이집트 여행을 다녀온 서른 살 즈음의 귀스타브 플로베르는 《보바리 부인》을 집필하기 시작했다. 빈틈없는 조사와 치밀하고 정확한 연구, 무수히 다듬은 문체가 돋보이는 작품이자, 주관을 배제한 채 진실에 도달하고자 하는 플로베르의 사실주의적 지향이 가장 찬란하게 꽃피운 작품이다.",
+      "isbn": "9788931025040",
+      "cover_image": "https://image.aladin.co.kr/product/36429/26/coversum/8931025041_2.jpg",
+      "category_name": "로맨스",
+      "category_color": "#FF9AA2",
+      "price": 12000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 4,
+    "fields": {
+      "title": "어린 왕자",
+      "author": "앙투안 드 생텍쥐페리 (지은이), 이명경 (옮긴이)",
+      "publisher": "청어",
+      "pub_date": "2025-05-15",
+      "description": "앙투안 드 생텍쥐페리의 소설이다.",
+      "isbn": "9791168553316",
+      "cover_image": "https://image.aladin.co.kr/product/36408/63/coversum/k512039884_1.jpg",
+      "category_name": "로맨스",
+      "category_color": "#FF9AA2",
+      "price": 14000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 5,
+    "fields": {
+      "title": "밀실 황금시대의 살인 - 눈의 저택과 여섯 개의 트릭",
+      "author": "가모사키 단로 (지은이), 김예진 (옮긴이)",
+      "publisher": "리드비",
+      "pub_date": "2025-05-29",
+      "description": "제20회 ‘〈이 미스터리가 대단하다!〉 대상’ 문고 그랑프리 수상작. 《밀실 황금시대의 살인》은 세상에 밀실살인이 유행한다는 참신하고 유쾌한 설정으로 시작한다. 삼 년 전, 한 살인 사건의 용의자가 현장이 완벽한 밀실이라는 이유로 무죄판결을 받는데...",
+      "isbn": "9791192738543",
+      "cover_image": "https://image.aladin.co.kr/product/36465/56/coversum/k662039814_1.jpg",
+      "category_name": "판타지/무협",
+      "category_color": "#B5A1DD",
+      "price": 17800
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 6,
+    "fields": {
+      "title": "진실의 눈 : 그림의 피",
+      "author": "나리솔 (지은이)",
+      "publisher": "부크크(bookk)",
+      "pub_date": "2025-04-28",
+      "description": "",
+      "isbn": "9791141943097",
+      "cover_image": "https://image.aladin.co.kr/product/36449/64/coversum/k622039494_1.jpg",
+      "category_name": "판타지/무협",
+      "category_color": "#B5A1DD",
+      "price": 17900
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 7,
+    "fields": {
+      "title": "폭포의 교향곡",
+      "author": "이성현 (지은이)",
+      "publisher": "부크크(bookk)",
+      "pub_date": "2025-04-30",
+      "description": "",
+      "isbn": "9791141943080",
+      "cover_image": "https://image.aladin.co.kr/product/36450/35/coversum/k972039496_1.jpg",
+      "category_name": "판타지/무협",
+      "category_color": "#B5A1DD",
+      "price": 10100
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 8,
+    "fields": {
+      "title": "공감각 아름다운 밤에",
+      "author": "아마네 료 (지은이), 이연승 (옮긴이)",
+      "publisher": "블루홀식스(블루홀6)",
+      "pub_date": "2025-05-26",
+      "description": "현재 일본 미스터리계에서 가장 주목받는 작가 아마네 료의 장편 본격 미스터리 데뷔작이다. 여기서 공감각(Synesthesia)이란 특정한 감각이 또 다른 감각을 불러일으키는 현상을 주축으로 기묘하고도 매혹적인 상상을 바탕으로 탄생한 미스터리다.",
+      "isbn": "9791193149461",
+      "cover_image": "https://image.aladin.co.kr/product/36443/30/coversum/k932039397_1.jpg",
+      "category_name": "판타지/무협",
+      "category_color": "#B5A1DD",
+      "price": 16800
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 9,
+    "fields": {
+      "title": "나에게만 보이는 살인",
+      "author": "테라시마 요우 (지은이), 권하영 (옮긴이)",
+      "publisher": "북플라자",
+      "pub_date": "2025-05-23",
+      "description": "오자키는 3년 전 오토바이 사고로 오른쪽 눈의 시력을 잃었다. 3년 만에 사고 현장을 다시 찾은 그녀는 갑자기 오른쪽 눈의 시력이 돌아온 걸 느낀다. 하지만 오른쪽 눈에는 현재가 아닌 3년 전 풍경이 비치고 있었다. 오자키는 오른쪽 눈의 능력으로 자신에게 일어난 오토바이 사고가 단순 사고가 아니었다는 걸 알게 되고, 동료 경찰에게 도움을 청한다.",
+      "isbn": "9791193324509",
+      "cover_image": "https://image.aladin.co.kr/product/36429/1/coversum/k282039297_1.jpg",
+      "category_name": "판타지/무협",
+      "category_color": "#B5A1DD",
+      "price": 19000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 10,
+    "fields": {
+      "title": "데미안 (페이퍼백 에디션)",
+      "author": "헤르만 헤세 (지은이), 한다해 (옮긴이)",
+      "publisher": "서사원",
+      "pub_date": "2025-06-10",
+      "description": "『데미안』은 성장소설을 꼽을 때 빼놓을 수 없는 작품으로, 소년 싱클레어가 내면의 인도자인 데미안을 만나 온전한 자기 자신으로 성장해가는 여정을 그린다. 평화와 질서가 있는 밝은 세계에 살던 소년 싱클레어는 불량소년 프란츠 크로머에게 거짓말을 했다가 지속해서 돈을 빼앗기고 괴롭힘을 당하며, 점차 어두운 세계에 빠져든다. 그런 싱클레어 앞에 나타난 신비로운 전학생 ‘막스 데미안’은 그를 크로머로부터 구한다.",
+      "isbn": "9791168224315",
+      "cover_image": "https://image.aladin.co.kr/product/36465/46/coversum/k212039814_1.jpg",
+      "category_name": "추리/스릴러",
+      "category_color": "#355C7D",
+      "price": 11000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 11,
+    "fields": {
+      "title": "생의 한가운데",
+      "author": "루이제 린저 (지은이), 전혜린 (옮긴이)",
+      "publisher": "문예출판사",
+      "pub_date": "2025-05-23",
+      "description": "주인공 니나 부슈만을 사랑하는 스무 살 연상의 남자 슈타인의 이루지 못한 사랑 이야기로 형식적으로는 슈타인의 일기와 편지, 니나와 그녀의 언니 마르그레트의 며칠간의 짧은 만남과 대화로 구성되어 있다. 또 내용상으로는 작가의 자전적 요소가 녹아 있다.",
+      "isbn": "9788931024999",
+      "cover_image": "https://image.aladin.co.kr/product/36429/2/coversum/8931024991_1.jpg",
+      "category_name": "추리/스릴러",
+      "category_color": "#355C7D",
+      "price": 12000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 12,
+    "fields": {
+      "title": "삼십세 - 잉게보르크 바흐만 단편선",
+      "author": "잉에보르크 바흐만 (지은이), 차경아 (옮긴이)",
+      "publisher": "문예출판사",
+      "pub_date": "2025-05-23",
+      "description": "",
+      "isbn": "9788931025002",
+      "cover_image": "https://image.aladin.co.kr/product/36429/5/coversum/8931025009_1.jpg",
+      "category_name": "추리/스릴러",
+      "category_color": "#355C7D",
+      "price": 13000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 13,
+    "fields": {
+      "title": "낭만 건달 - 어느 쓸모없는 자의 삶에서",
+      "author": "요제프 폰 아이헨도르프 (지은이), 오청자 (옮긴이)",
+      "publisher": "부북스",
+      "pub_date": "2025-05-23",
+      "description": "아이헨도르프가 1817년에 쓰기 시작하고 1821년에 완성하여 1826년에 출간한 소설 《낭만 건달》은 음악적 산문의 절정이며 동시에 후기낭만주의의 전형으로 손꼽힌다. 자연과 소박한 삶에 대한 아이헨도르프의 목가적 전원 묘사는 실용주의적 사고와 대비된다.",
+      "isbn": "9791191758290",
+      "cover_image": "https://image.aladin.co.kr/product/36429/38/coversum/k322039398_1.jpg",
+      "category_name": "추리/스릴러",
+      "category_color": "#355C7D",
+      "price": 10000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 14,
+    "fields": {
+      "title": "스물두 번째 레인",
+      "author": "카롤리네 발 (지은이), 전은경 (옮긴이)",
+      "publisher": "다산책방",
+      "pub_date": "2025-05-16",
+      "description": "슈피겔 베스트셀러 1위, 전 세계 13개국 수출, 누적 80만 부 판매 등 데뷔작이라고는 믿기지 않을 정도로 눈부신 업적을 달성한 카롤리네 발의 장편소설 『스물두 번째 레인』이 한국에서 출간되었다. 『스물두 번째 레인』은 고단한 일상 속에서도 조용히 앞으로 나아가려는 한 소녀의 눈부신 분투를 그린 성장소설이다.",
+      "isbn": "9791130665825",
+      "cover_image": "https://image.aladin.co.kr/product/36422/73/coversum/k212039190_2.jpg",
+      "category_name": "추리/스릴러",
+      "category_color": "#355C7D",
+      "price": 17500
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 15,
+    "fields": {
+      "title": "아름다운 소녀들의 수직사회",
+      "author": "우제주 (지은이), 황선영 (옮긴이)",
+      "publisher": "북로드",
+      "pub_date": "2025-05-25",
+      "description": "이상기후로 해수면이 점점 높아지면서 국민들이 살 수 있는 땅이 줄어들고 있는 자자지섬을 배경으로, 다섯 소녀의 우정과 사랑, 아픔과 성장통을 그려낸 장편 소설이다. 성적, 경제력 등 여러 면에서 최상위권 아이들만 입학할 수 있는 ‘수직농장 부속학교’가 주요 배경이다.",
+      "isbn": "9791158792374",
+      "cover_image": "https://image.aladin.co.kr/product/36466/20/coversum/k402039816_1.jpg",
+      "category_name": "공포",
+      "category_color": "#23272A",
+      "price": 17000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 16,
+    "fields": {
+      "title": "청소년을 위한 수호지",
+      "author": "시내암 (지은이), 이상인 (엮은이), 최정주 (그림)",
+      "publisher": "평단(평단문화사)",
+      "pub_date": "2025-05-27",
+      "description": "중국의 대표적 정치가 마오쩌둥과 주룽지는 『수호지』를 즐겨 읽으며 자랐다. 마오쩌둥은 가난한 농민의 아들로 태어나 학문 대신 농사일을 강요받는 현실에서도 『수호지』를 탐독했으며, 주룽지는 등장인물의 이름을 모두 외울 정도로 수호지 마니아였다. 『청소년을 위한 수호지』는 『수호지』의 방대한 이야기를 한 권 분량으로 압축한 것이다.",
+      "isbn": "9788973435852",
+      "cover_image": "https://image.aladin.co.kr/product/36321/29/coversum/897343585x_1.jpg",
+      "category_name": "공포",
+      "category_color": "#23272A",
+      "price": 16800
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 17,
+    "fields": {
+      "title": "연매장",
+      "author": "팡팡 (지은이), 문현선 (옮긴이)",
+      "publisher": "문학동네",
+      "pub_date": "2025-04-18",
+      "description": "아들 칭린이 어머니 딩쯔타오의 과거를 추적하면서 중국 현대사에서 희생된 개인들을 마주하는 이야기다. 비판의식과 문학성을 훌륭하게 결합했다는 평가를 받으며 루야오문학상을 수상했지만, 1950년대 토지개혁을 부정적으로 묘사했다며 수상 직후 중국 정부에서 금서로 지정했다. 그러나 팡팡은 결코 침묵당하지 않았다. 『연매장』은 독자들의 요청으로 대만에서 중국어로 출간되었으며 영어, 프랑스어, 이탈리아어 등 여러 언어로 번역되어 잊혀선 안 될 이야기들을 전하고 있다.",
+      "isbn": "9791141609962",
+      "cover_image": "https://image.aladin.co.kr/product/36254/72/coversum/k322038527_1.jpg",
+      "category_name": "공포",
+      "category_color": "#23272A",
+      "price": 17500
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 18,
+    "fields": {
+      "title": "고독한 용의자",
+      "author": "찬호께이 (지은이), 허유영 (옮긴이)",
+      "publisher": "위즈덤하우스",
+      "pub_date": "2025-04-16",
+      "description": "'중화권 추리소설의 출발점'으로 불리며 전 세계의 사랑을 받은 사회파 추리소설 《13·67》 《망내인》의 작가 찬호께이의 신작 장편소설 《고독한 용의자》가 위즈덤하우스에서 출간되었다. 《마술 피리》 이후 국내에서 약 3년 만에 선보이는 신작이다. 최근 소개된 작품들이 호러나 판타지에 가까웠다면 《고독한 용의자》는 《기억나지 않음, 형사》 이후 오랜만에 발표하는 정통 범죄추리소설이다.",
+      "isbn": "9791171713608",
+      "cover_image": "https://image.aladin.co.kr/product/36241/31/coversum/k262038818_1.jpg",
+      "category_name": "공포",
+      "category_color": "#23272A",
+      "price": 19500
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 19,
+    "fields": {
+      "title": "이각 박안경기 1",
+      "author": "능몽초 (지은이), 문성재 (옮긴이)",
+      "publisher": "소명출판",
+      "pub_date": "2025-04-10",
+      "description": "중국 명나라 말기의 문학자 능몽초가 저술한 소설집으로, 송·원대 화본의 형식을 모방해 창작한 최초의 의화본 소설집이다. 이 작품은 사실주의적 창작 방식을 채택하여 일상생활과 현실 세계를 배경으로 삼으며, 당시 사회의 도덕적 문제와 잘못된 가치관을 바로잡고자 했다.",
+      "isbn": "9791159059575",
+      "cover_image": "https://image.aladin.co.kr/product/36220/41/coversum/k002038506_2.jpg",
+      "category_name": "공포",
+      "category_color": "#23272A",
+      "price": 34000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 20,
+    "fields": {
+      "title": "[큰글자책] 기후 변화의 해결 방안은 참여 소득이다 - 기후가 변해도 살기 좋은 나라를 만들 방법",
+      "author": "장용창 (지은이)",
+      "publisher": "숑숑출판사",
+      "pub_date": "2025-05-22",
+      "description": "제목 그대로 기후 변화의 해결 방안이 참여 소득임을 알려주는 책이다. 행정학 박사인 저자가 오랫동안 기후 변화에 대응한 정부 정책을 연구한 결과 알아낸 기후 변화 대응 정책을 쉬운 언어로 해설하고 있다. 특히 전세계 대부분의 국가들이 기후 변화를 막기 위해 추진하고 있는 탄소 중립을 성공한다 해도 기후 변화를 막을 수 없음을 수학적으로 증명한 자신의 논문을 소개하고 있다.",
+      "isbn": "9791196747244",
+      "cover_image": "https://image.aladin.co.kr/product/36464/77/coversum/k662039812_1.jpg",
+      "category_name": "사회/문화",
+      "category_color": "#BCAAA4",
+      "price": 20000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 21,
+    "fields": {
+      "title": "쉽게 읽는 대선 후보 TV토론 - 누구나 이해할 수 있는 후보자 TV토론 이야기",
+      "author": "최영돈 (지은이)",
+      "publisher": "솔과학",
+      "pub_date": "2025-05-23",
+      "description": "",
+      "isbn": "9791173790171",
+      "cover_image": "https://image.aladin.co.kr/product/36465/40/coversum/k942039814_1.jpg",
+      "category_name": "사회/문화",
+      "category_color": "#BCAAA4",
+      "price": 25000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 22,
+    "fields": {
+      "title": "대통령의 성공조건 - 대한민국 국정리더십",
+      "author": "박성원 (지은이)",
+      "publisher": "나남출판",
+      "pub_date": "2025-05-25",
+      "description": "",
+      "isbn": "9788930042031",
+      "cover_image": "https://image.aladin.co.kr/product/36465/72/coversum/8930042031_1.jpg",
+      "category_name": "사회/문화",
+      "category_color": "#BCAAA4",
+      "price": 23000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 23,
+    "fields": {
+      "title": "선생님을 위한 교육용 AI 챗봇 활용법 - 교육용 챗봇, 개념기반탐구수업, 투닝GPT, MIZOU(미조우), 매직스쿨AI, 브리스크 티칭, E-GPT(이집트), GPT-API, 프롬프트 엔지니어링, 맞춤형 학습",
+      "author": "임세범, 박지은, 나희정, 조정연 (지은이)",
+      "publisher": "앤써북",
+      "pub_date": "2025-06-30",
+      "description": "현직 교사들이 실제 교실에서 챗봇을 활용한 경험을 바탕으로 작성되었다. 복잡한 기술 용어나 프로그래밍 지식 없이도, 누구나 쉽게 교육용 챗봇을 만들고 활용할 수 있도록 단계별로 안내한다.",
+      "isbn": "9791193059555",
+      "cover_image": "https://image.aladin.co.kr/product/36465/82/coversum/k472039815_1.jpg",
+      "category_name": "사회/문화",
+      "category_color": "#BCAAA4",
+      "price": 22500
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 24,
+    "fields": {
+      "title": "복종과 불복종 - 자발적 복종과 정당한 불복종, 바람직한 민군관계에 대하여",
+      "author": "전계청 (지은이)",
+      "publisher": "플래닛미디어",
+      "pub_date": "2025-05-23",
+      "description": "KODEF 안보총서 125권. 12·3 계엄 사태가 불러일으킨 복종과 불복종의 문제를 파헤친 역작. 39년간 군에 몸담았던 예비역 장군이 12·3 계엄 직후 충격 속에 써내려간 복종과 불복종에 대한 성찰의 기록이다.",
+      "isbn": "9791187822974",
+      "cover_image": "https://image.aladin.co.kr/product/36466/4/coversum/k032039816_1.jpg",
+      "category_name": "사회/문화",
+      "category_color": "#BCAAA4",
+      "price": 22000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 25,
+    "fields": {
+      "title": "장르영화 대사전 - 코즈믹 호러부터 무협까지, 장르영화의 모든 것",
+      "author": "김정곤, 김익상 (지은이)",
+      "publisher": "동녘",
+      "pub_date": "2025-05-30",
+      "description": "",
+      "isbn": "9788972971597",
+      "cover_image": "https://image.aladin.co.kr/product/36465/32/coversum/8972971596_1.jpg",
+      "category_name": "예술/대중문화",
+      "category_color": "#A7C7E7",
+      "price": 35000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 26,
+    "fields": {
+      "title": "[큰글자책] 별 볼일 없는 여자",
+      "author": "오스카 와일드 (지은이), 오경심 (옮긴이)",
+      "publisher": "지만지드라마",
+      "pub_date": "2025-05-26",
+      "description": "겉으로는 우아하지만 실은 위선으로 가득한 영국 상류사회를 날카롭게 풍자하는 희곡. 젊은 제럴드와 과거를 숨긴 어머니, 그리고 그들을 위협하는 일링워스 경의 관계를 통해, 사회가 여성에게만 부과하는 도덕적 책임과 침묵의 강요를 비판한다.",
+      "isbn": "9791143004369",
+      "cover_image": "https://image.aladin.co.kr/product/36465/35/coversum/k792039813_1.jpg",
+      "category_name": "예술/대중문화",
+      "category_color": "#A7C7E7",
+      "price": 29000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 27,
+    "fields": {
+      "title": "만드라골라",
+      "author": "니콜로 마키아벨리 (지은이), 장지연 (옮긴이)",
+      "publisher": "지만지드라마",
+      "pub_date": "2025-05-31",
+      "description": "",
+      "isbn": "9791143004901",
+      "cover_image": "https://image.aladin.co.kr/product/36465/38/coversum/k842039813_1.jpg",
+      "category_name": "예술/대중문화",
+      "category_color": "#A7C7E7",
+      "price": 21800
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 28,
+    "fields": {
+      "title": "별 볼일 없는 여자",
+      "author": "오스카 와일드 (지은이), 오경심 (옮긴이)",
+      "publisher": "지만지드라마",
+      "pub_date": "2025-05-26",
+      "description": "겉으로는 우아하지만 실은 위선으로 가득한 영국 상류사회를 날카롭게 풍자하는 희곡. 젊은 제럴드와 과거를 숨긴 어머니, 그리고 그들을 위협하는 일링워스 경의 관계를 통해, 사회가 여성에게만 부과하는 도덕적 책임과 침묵의 강요를 비판한다. 와일드는 특유의 재치와 반어로 인간의 이중성과 위선을 드러낸다.",
+      "isbn": "9791143004352",
+      "cover_image": "https://image.aladin.co.kr/product/36465/39/coversum/k972039814_1.jpg",
+      "category_name": "예술/대중문화",
+      "category_color": "#A7C7E7",
+      "price": 18800
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 29,
+    "fields": {
+      "title": "[큰글자책] 만드라골라",
+      "author": "니콜로 마키아벨리 (지은이), 장지연 (옮긴이)",
+      "publisher": "지만지드라마",
+      "pub_date": "2025-05-31",
+      "description": "",
+      "isbn": "9791143004918",
+      "cover_image": "https://image.aladin.co.kr/product/36465/40/coversum/k052039814_1.jpg",
+      "category_name": "예술/대중문화",
+      "category_color": "#A7C7E7",
+      "price": 34000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 30,
+    "fields": {
+      "title": "파도에 지워진 어부의 시",
+      "author": "김원작 (지은이)",
+      "publisher": "봄책장봄먼지",
+      "pub_date": "2025-05-07",
+      "description": "인생이라는 파도에서 자신만의 노를 저으며 살아가던 나룻배 사공 오상도가 칠흑 같은 역사의 질곡에서 살아남아 마침내 바다로 나아가는 이야기.",
+      "isbn": "9791199166905",
+      "cover_image": "https://image.aladin.co.kr/product/36464/71/coversum/k582039812_1.jpg",
+      "category_name": "시/문학",
+      "category_color": "#D6CDEA",
+      "price": 17000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 31,
+    "fields": {
+      "title": "종합문예 유성 2025.제24호",
+      "author": "도서출판유성 편집부 (지은이)",
+      "publisher": "도서출판유성",
+      "pub_date": "2025-03-20",
+      "description": "",
+      "isbn": "9772671937008",
+      "cover_image": "https://image.aladin.co.kr/product/36464/80/coversum/k742039812_1.jpg",
+      "category_name": "시/문학",
+      "category_color": "#D6CDEA",
+      "price": 15000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 32,
+    "fields": {
+      "title": "모월 모일 영숙 씨",
+      "author": "졸린닥훈씨 (지은이)",
+      "publisher": "메이킹북스",
+      "pub_date": "2025-05-15",
+      "description": "",
+      "isbn": "9791167916983",
+      "cover_image": "https://image.aladin.co.kr/product/36464/80/coversum/k882039812_1.jpg",
+      "category_name": "시/문학",
+      "category_color": "#D6CDEA",
+      "price": 10000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 33,
+    "fields": {
+      "title": "모기향 앵무새 슈크림 포스터 (리커버)",
+      "author": "희치 (지은이)",
+      "publisher": "우주속도",
+      "pub_date": "2025-05-05",
+      "description": "오지 않을 것을 기다리는 것은 어떤 마음일까. 영롱한 빛 같기도, 쨍한 핫핑크 슬라임 같기도, 눅눅하게 잠기는 먹구름 같기도 한 마음들을 녹여낸 시집이다.",
+      "isbn": "9791199225312",
+      "cover_image": "https://image.aladin.co.kr/product/36464/82/coversum/k002039813_1.jpg",
+      "category_name": "시/문학",
+      "category_color": "#D6CDEA",
+      "price": 12000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 34,
+    "fields": {
+      "title": "뫼비우스의 욕실 (리커버)",
+      "author": "신소 (지은이)",
+      "publisher": "우주속도",
+      "pub_date": "2025-05-05",
+      "description": "욕실에서 샤워하는 시간마다 무수한 거품을 떠올렸다. '안'과 '밖'을 구별하는 일이었다. 찰나의 감정으로 직조된 감각의 장소.『뫼비우스의 욕실』은 현실과 꿈의 경계, 무의식의 루프를 수집한 시집이다.",
+      "isbn": "9791199225305",
+      "cover_image": "https://image.aladin.co.kr/product/36464/85/coversum/k112039813_1.jpg",
+      "category_name": "시/문학",
+      "category_color": "#D6CDEA",
+      "price": 12000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 35,
+    "fields": {
+      "title": "[큰글자책] 기후 변화의 해결 방안은 참여 소득이다 - 기후가 변해도 살기 좋은 나라를 만들 방법",
+      "author": "장용창 (지은이)",
+      "publisher": "숑숑출판사",
+      "pub_date": "2025-05-22",
+      "description": "제목 그대로 기후 변화의 해결 방안이 참여 소득임을 알려주는 책이다. 행정학 박사인 저자가 오랫동안 기후 변화에 대응한 정부 정책을 연구한 결과 알아낸 기후 변화 대응 정책을 쉬운 언어로 해설하고 있다. 특히 전세계 대부분의 국가들이 기후 변화를 막기 위해 추진하고 있는 탄소 중립을 성공한다 해도 기후 변화를 막을 수 없음을 수학적으로 증명한 자신의 논문을 소개하고 있다.",
+      "isbn": "9791196747244",
+      "cover_image": "https://image.aladin.co.kr/product/36464/77/coversum/k662039812_1.jpg",
+      "category_name": "과학/기술",
+      "category_color": "#61C0BF",
+      "price": 20000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 36,
+    "fields": {
+      "title": "음성의 분석과 합성의 원리",
+      "author": "박경림 (지은이)",
+      "publisher": "은범상회",
+      "pub_date": "2025-05-30",
+      "description": "저자가 1980년대 한국전자통신연구소에서 참여하면서 습득한 기술을 정리한 책이다. 1994년의 〈선형예측분석법에 의한 음성의 압축과 재생〉 (하늘소), 1994년과 2001년의  〈음성의 분석 및 함성과 그 응용〉 (그린)으로 나온 기술자료를 개정하여 재출간했다.",
+      "isbn": "9791198995179",
+      "cover_image": "https://image.aladin.co.kr/product/36465/65/coversum/k922039815_1.jpg",
+      "category_name": "과학/기술",
+      "category_color": "#61C0BF",
+      "price": 19000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 37,
+    "fields": {
+      "title": "더 좋은 삶을 위한 수학 - 인생의 거의 모든 문제를 푸는 네 가지 수학적 사고법",
+      "author": "데이비드 섬프터 (지은이), 고현석 (옮긴이)",
+      "publisher": "흐름출판",
+      "pub_date": "2025-05-28",
+      "description": "스웨덴 웁살라대학교의 응용수학과 교수인 데이비드 섬프터는 이 책에서 수학의 네 가지 사고법인 통계적, 상호작용적, 카오스적, 복잡계적 사고법을 소개하고, 그 개념들을 일상에 어떻게 적용할 수 있을지 설명한다. 특히 셀룰러 오토마타라는 수학 모델을 바탕으로 우리가 사는 세계의 복잡한 현상을 단순하게 풀어보는 방법을 제시한다.",
+      "isbn": "9788965967194",
+      "cover_image": "https://image.aladin.co.kr/product/36466/25/coversum/8965967198_1.jpg",
+      "category_name": "과학/기술",
+      "category_color": "#61C0BF",
+      "price": 23500
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 38,
+    "fields": {
+      "title": "미술관에 간 해부학자 - 명화로 읽는 인체의 서사, 개정증보판",
+      "author": "이재호 (지은이)",
+      "publisher": "어바웃어북",
+      "pub_date": "2025-06-09",
+      "description": "&lt;미술관에 간 해부학자&gt;가 출간 4년 만에 개정증보판으로 돌아왔다. 그동안 과학기술정보통신부 ‘우수과학도서’를 비롯해 문화체육관광부 ‘세종도서’ 및 서울대 영재교육원과 행복한아침독서 ‘추천도서’에 선정되는 등 각계각층으로부터 의학과 예술, 인문학을 융합하는 최고의 도서로 격찬 받았다.",
+      "isbn": "9791192229621",
+      "cover_image": "https://image.aladin.co.kr/product/36466/28/coversum/k622039816_1.jpg",
+      "category_name": "과학/기술",
+      "category_color": "#61C0BF",
+      "price": 23000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 39,
+    "fields": {
+      "title": "무엇도 홀로 존재하지 않는다 - 존재의 연결을 묻는 카를로 로벨리의 질문들",
+      "author": "카를로 로벨리 (지은이), 김정훈 (옮긴이)",
+      "publisher": "쌤앤파커스",
+      "pub_date": "2025-06-02",
+      "description": "세계적 물리학자 카를로 로벨리의 첫 에세이다. 이탈리아 대표 일간지 〈코리에레델라세라〉 등 여러 글로벌 매체에 기고해온 글과 말을 모았다. 시간과 공간을 넘나들며 우주의 물리학적 현상을 추적해온 저자가, 이번에는 현실을 살아가는 사람과 사람의 이야기, 그 바탕에 깔린 과학과 철학, 예술의 진정한 의미로 시선을 옮긴다.",
+      "isbn": "9791194755210",
+      "cover_image": "https://image.aladin.co.kr/product/36458/64/coversum/k782039714_1.jpg",
+      "category_name": "과학/기술",
+      "category_color": "#61C0BF",
+      "price": 18500
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 40,
+    "fields": {
+      "title": "우암 송시열 우재간축",
+      "author": "김운기 (역주)",
+      "publisher": "다운샘",
+      "pub_date": "2025-04-30",
+      "description": "",
+      "isbn": "9788958175575",
+      "cover_image": "https://image.aladin.co.kr/product/36465/69/coversum/8958175575_1.jpg",
+      "category_name": "역사",
+      "category_color": "#8B3A3A",
+      "price": 50000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 41,
+    "fields": {
+      "title": "꿰뚫는 기후의 역사 - 1만 1700년 기후 변화의 방대한 역사를 단숨에 꿰뚫다",
+      "author": "프란츠 마울스하겐 (지은이), 김태수 (옮긴이)",
+      "publisher": "빅퀘스천",
+      "pub_date": "2025-05-23",
+      "description": "",
+      "isbn": "9791198976116",
+      "cover_image": "https://image.aladin.co.kr/product/36458/0/coversum/k372039713_1.jpg",
+      "category_name": "역사",
+      "category_color": "#8B3A3A",
+      "price": 17000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 42,
+    "fields": {
+      "title": "박만순의 기억전쟁 4",
+      "author": "박만순 (지은이)",
+      "publisher": "고두미",
+      "pub_date": "2025-05-15",
+      "description": "강원도, 충북 충주·청주·청원·오창·영동, 경북 안동, 전남 신안·영광 지역의 국민보도연맹원 학살 사건, 안동, 문경, 조치원, 청원, 신안 등지에서 벌어진 군경에 의한 학살 사건, 전남 신안군의 기독교인 학살, 신안군 자은도·암태도와 영광군 지역의 보복학살 등 전국의 민간인 학살 사례를 다루었다. 마지막에는 집필하는 동안 겪은 에피소드와 활동의 단상을 정리하여 실었다.",
+      "isbn": "9791191306705",
+      "cover_image": "https://image.aladin.co.kr/product/36458/9/coversum/k772039713_1.jpg",
+      "category_name": "역사",
+      "category_color": "#8B3A3A",
+      "price": 20000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 43,
+    "fields": {
+      "title": "20세기 초 동아시아 국제정세와 코민테른의 공산주의혁명",
+      "author": "서점교 (지은이)",
+      "publisher": "에듀컨텐츠휴피아",
+      "pub_date": "2025-05-15",
+      "description": "20세기 초 중국 등 동아시아 지역에서 요동친 국제정세를 고찰하는 책이다. 19세기부터 시작된 유럽 열강들의 중국, 일본, 한국 등에 대한 개항 요구 및 이와 관련된 동아시아 지역의 대응 및 이로 인해 요동친 국제정세 특히 극동지역에서의 상횡을 명확하게 정리 및 제시하였다.",
+      "isbn": "9788963564968",
+      "cover_image": "https://image.aladin.co.kr/product/36458/11/coversum/8963564967_1.jpg",
+      "category_name": "역사",
+      "category_color": "#8B3A3A",
+      "price": 18000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 44,
+    "fields": {
+      "title": "인포그래픽으로 보는 세계전쟁사 - 신석기 시대부터 현대 디지털 전쟁까지",
+      "author": "뱅상 베르나르 (지은이), 로랑 투샤르 (엮은이), 주명철 (옮긴이), 쥘리앵 펠티에 (디자인)",
+      "publisher": "여문책",
+      "pub_date": "2025-06-02",
+      "description": "선사 시대부터 오늘날까지 세계전쟁사를 인포그래픽으로 탁월하게 다룬 이 책이야말로 새로운 도전이다. 원시 시대의 석기와 골각기부터 최초의 금속 제련, 바퀴의 등장, 동물 길들이기, 화약과 내연기관의 발명을 거쳐 현대의 디지털 기술에 이르기까지, 저자들은 전쟁 현상과 관계있는 주요 문제를 모두 다루고 있다.",
+      "isbn": "9791187700951",
+      "cover_image": "https://image.aladin.co.kr/product/36458/95/coversum/k732039715_1.jpg",
+      "category_name": "역사",
+      "category_color": "#8B3A3A",
+      "price": 30000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 45,
+    "fields": {
+      "title": "친밀한 파괴자",
+      "author": "로빈 스턴 (지은이), 신준영 (옮긴이)",
+      "publisher": "알에이치코리아(RHK)",
+      "pub_date": "2025-05-28",
+      "description": "예일대학교 로빈 박사가 30여 년간 심리 상담을 통해 정립한 가스라이팅이 일어나는 상황 및 가해자의 유형을 소개하며 가스라이팅을 단계적으로 차단할 수 있도록 돕는다. 궁극의 목표는 내 앞에 놓인 이 관계를 이어갈지 말지 누구나 스스로 결정할 수 있게 되는 것이다.",
+      "isbn": "9788925573618",
+      "cover_image": "https://image.aladin.co.kr/product/36465/51/coversum/892557361x_1.jpg",
+      "category_name": "인문/철학",
+      "category_color": "#7B8D8E",
+      "price": 22000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 46,
+    "fields": {
+      "title": "합리적인 미스터리를 쓰는 법",
+      "author": "나카야마 시치리 (지은이), 민경욱 (옮긴이)",
+      "publisher": "알에이치코리아(RHK)",
+      "pub_date": "2025-05-28",
+      "description": "",
+      "isbn": "9788925573601",
+      "cover_image": "https://image.aladin.co.kr/product/36465/58/coversum/8925573601_1.jpg",
+      "category_name": "인문/철학",
+      "category_color": "#7B8D8E",
+      "price": 20000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 47,
+    "fields": {
+      "title": "하루 한 장 삶에 새기는 철학의 지혜 - 흔들리는 삶을 단단한 삶으로 바꿔주는 철학을 읽다",
+      "author": "최영원 (지은이)",
+      "publisher": "보아스",
+      "pub_date": "2025-06-09",
+      "description": "",
+      "isbn": "9791189347260",
+      "cover_image": "https://image.aladin.co.kr/product/36465/66/coversum/k932039815_1.jpg",
+      "category_name": "인문/철학",
+      "category_color": "#7B8D8E",
+      "price": 18000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 48,
+    "fields": {
+      "title": "지적인 인간 - 좋은 삶을 위한 7개의 인문학 지식",
+      "author": "황영일, 고운조, 류가영 (지은이)",
+      "publisher": "백북하우스",
+      "pub_date": "2025-05-26",
+      "description": "저자들은 법률가로서 현실주의적, 실용주의적 삶을 살면서 학문이란 그 본연의 임무가 삶의 문제를 해결하는 도구이어야 함을 깨닫게 되었다. 이러한 관점에서 수많은 사상과 지식 중 삶의 문제를 이해하고 해결하는 데에 도움이 되는 것을 차곡차곡 한 권의 책으로 모았다.",
+      "isbn": "9791198808516",
+      "cover_image": "https://image.aladin.co.kr/product/36465/76/coversum/k362039815_1.jpg",
+      "category_name": "인문/철학",
+      "category_color": "#7B8D8E",
+      "price": 19000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 49,
+    "fields": {
+      "title": "벤야민과 기억",
+      "author": "윤미애 (지은이)",
+      "publisher": "문학동네",
+      "pub_date": "2025-05-22",
+      "description": "",
+      "isbn": "9791141609658",
+      "cover_image": "https://image.aladin.co.kr/product/36465/78/coversum/k392039815_1.jpg",
+      "category_name": "인문/철학",
+      "category_color": "#7B8D8E",
+      "price": 20000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 50,
+    "fields": {
+      "title": "[큰글자책] 기후 변화의 해결 방안은 참여 소득이다 - 기후가 변해도 살기 좋은 나라를 만들 방법",
+      "author": "장용창 (지은이)",
+      "publisher": "숑숑출판사",
+      "pub_date": "2025-05-22",
+      "description": "제목 그대로 기후 변화의 해결 방안이 참여 소득임을 알려주는 책이다. 행정학 박사인 저자가 오랫동안 기후 변화에 대응한 정부 정책을 연구한 결과 알아낸 기후 변화 대응 정책을 쉬운 언어로 해설하고 있다. 특히 전세계 대부분의 국가들이 기후 변화를 막기 위해 추진하고 있는 탄소 중립을 성공한다 해도 기후 변화를 막을 수 없음을 수학적으로 증명한 자신의 논문을 소개하고 있다.",
+      "isbn": "9791196747244",
+      "cover_image": "https://image.aladin.co.kr/product/36464/77/coversum/k662039812_1.jpg",
+      "category_name": "정신분석/심리",
+      "category_color": "#FFA64D",
+      "price": 20000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 51,
+    "fields": {
+      "title": "쉽게 읽는 대선 후보 TV토론 - 누구나 이해할 수 있는 후보자 TV토론 이야기",
+      "author": "최영돈 (지은이)",
+      "publisher": "솔과학",
+      "pub_date": "2025-05-23",
+      "description": "",
+      "isbn": "9791173790171",
+      "cover_image": "https://image.aladin.co.kr/product/36465/40/coversum/k942039814_1.jpg",
+      "category_name": "정신분석/심리",
+      "category_color": "#FFA64D",
+      "price": 25000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 52,
+    "fields": {
+      "title": "대통령의 성공조건 - 대한민국 국정리더십",
+      "author": "박성원 (지은이)",
+      "publisher": "나남출판",
+      "pub_date": "2025-05-25",
+      "description": "",
+      "isbn": "9788930042031",
+      "cover_image": "https://image.aladin.co.kr/product/36465/72/coversum/8930042031_1.jpg",
+      "category_name": "정신분석/심리",
+      "category_color": "#FFA64D",
+      "price": 23000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 53,
+    "fields": {
+      "title": "선생님을 위한 교육용 AI 챗봇 활용법 - 교육용 챗봇, 개념기반탐구수업, 투닝GPT, MIZOU(미조우), 매직스쿨AI, 브리스크 티칭, E-GPT(이집트), GPT-API, 프롬프트 엔지니어링, 맞춤형 학습",
+      "author": "임세범, 박지은, 나희정, 조정연 (지은이)",
+      "publisher": "앤써북",
+      "pub_date": "2025-06-30",
+      "description": "현직 교사들이 실제 교실에서 챗봇을 활용한 경험을 바탕으로 작성되었다. 복잡한 기술 용어나 프로그래밍 지식 없이도, 누구나 쉽게 교육용 챗봇을 만들고 활용할 수 있도록 단계별로 안내한다.",
+      "isbn": "9791193059555",
+      "cover_image": "https://image.aladin.co.kr/product/36465/82/coversum/k472039815_1.jpg",
+      "category_name": "정신분석/심리",
+      "category_color": "#FFA64D",
+      "price": 22500
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 54,
+    "fields": {
+      "title": "복종과 불복종 - 자발적 복종과 정당한 불복종, 바람직한 민군관계에 대하여",
+      "author": "전계청 (지은이)",
+      "publisher": "플래닛미디어",
+      "pub_date": "2025-05-23",
+      "description": "KODEF 안보총서 125권. 12·3 계엄 사태가 불러일으킨 복종과 불복종의 문제를 파헤친 역작. 39년간 군에 몸담았던 예비역 장군이 12·3 계엄 직후 충격 속에 써내려간 복종과 불복종에 대한 성찰의 기록이다.",
+      "isbn": "9791187822974",
+      "cover_image": "https://image.aladin.co.kr/product/36466/4/coversum/k032039816_1.jpg",
+      "category_name": "정신분석/심리",
+      "category_color": "#FFA64D",
+      "price": 22000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 55,
+    "fields": {
+      "title": "산 아저씨도 모자를 갖고 싶어!",
+      "author": "곽수진 (지은이), 고영이 (옮긴이)",
+      "publisher": "사파리",
+      "pub_date": "2025-04-20",
+      "description": "맥밀런 월드베스트 시리즈. 맥밀런 일러스트상, 2019 볼로냐 국제아동도서전 사일런트북 콘테스트 대상 수상작가 곽수진의 오밀조밀한 그림들로 전하는 따듯한 마음. 친구들을 위해 딱 좋은 모자를 진심으로 만들어 주는 나라의 이야기로, 다른 이들을 위해 애쓰는 따듯한 마음과 노력이 돋보이는 그림책이다.",
+      "isbn": "9791169514477",
+      "cover_image": "https://image.aladin.co.kr/product/36464/76/coversum/k542039812_1.jpg",
+      "category_name": "아동",
+      "category_color": "#FFF176",
+      "price": 13500
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 56,
+    "fields": {
+      "title": "하루와 클로버",
+      "author": "임윤영(HARU) (지은이)",
+      "publisher": "풍요하리",
+      "pub_date": "2025-05-13",
+      "description": "",
+      "isbn": "9791199204263",
+      "cover_image": "https://image.aladin.co.kr/product/36464/79/coversum/k782039812_1.jpg",
+      "category_name": "아동",
+      "category_color": "#FFF176",
+      "price": 13900
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 57,
+    "fields": {
+      "title": "눈이 좋아!",
+      "author": "에밀리 그래빗 (지은이)",
+      "publisher": "사파리",
+      "pub_date": "2025-04-20",
+      "description": "",
+      "isbn": "9791169519656",
+      "cover_image": "https://image.aladin.co.kr/product/36464/81/coversum/k962039813_1.jpg",
+      "category_name": "아동",
+      "category_color": "#FFF176",
+      "price": 13500
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 58,
+    "fields": {
+      "title": "내가 정말정말 좋아하는 빨간 장화!",
+      "author": "제라 힉스 (지은이), 최재숙 (옮긴이)",
+      "publisher": "사파리",
+      "pub_date": "2025-03-20",
+      "description": "빨간 장화를 좋아하는 몰리의 일상을 유쾌하게 그려낸 그림책이다. 5살 이하의 아이들은 좋아하는 어떤 물건에 애착하는 경우가 있다. 담요나 인형, 신발 등 자신에게 익숙하고 편안한 물건에 한번 꽂히게 되면 눈에 보이지 않을 때 불안감을 느끼게 된다.",
+      "isbn": "9791169514439",
+      "cover_image": "https://image.aladin.co.kr/product/36464/81/coversum/k922039813_1.jpg",
+      "category_name": "아동",
+      "category_color": "#FFF176",
+      "price": 13500
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 59,
+    "fields": {
+      "title": "나는 발차기 중",
+      "author": "이혜원 (지은이)",
+      "publisher": "브와포레",
+      "pub_date": "2025-05-18",
+      "description": "",
+      "isbn": "9791187991359",
+      "cover_image": "https://image.aladin.co.kr/product/36464/86/coversum/k292039813_1.jpg",
+      "category_name": "아동",
+      "category_color": "#FFF176",
+      "price": 18500
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 60,
+    "fields": {
+      "title": "우리가 슬쩍 본 도시 스톡홀름 헬싱키",
+      "author": "온공간연구소 (지은이)",
+      "publisher": "온공간연구소",
+      "pub_date": "2025-04-25",
+      "description": "&lt;우리가 슬쩍 본 도시&gt; 시리즈는 도시를 공부하고, 계획하는 사람들이 여행자의 시선으로 도시를 둘러보고 느낀 단편적 인상에 대한 기록이다. 올해는 '북유럽의 대표도시'로 얘기되는 스웨덴 스톡홀름과 핀란드 헬싱키에 다녀왔다.",
+      "isbn": "9791196846633",
+      "cover_image": "https://image.aladin.co.kr/product/36464/80/coversum/k822039812_1.jpg",
+      "category_name": "자연/여행",
+      "category_color": "#A8D5BA",
+      "price": 18000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 61,
+    "fields": {
+      "title": "[세트] 일본 현지 맛집 체인 대백과 + 일본 현지 간식 대백과 + 일본 현지 아이스크림 대백과 + 일본 현지 빵 대백과 + 일본 현지 반찬 대백과 + 대만 현지 쇼핑 대백과 - 전6권",
+      "author": "아이스맨 후쿠토메, 스가와라 요시미, 타쓰미출판 편집부, 일본 추억의 대백과 시리즈 편집부, 오가와 지에코 (지은이), 수키, 김정원 (옮긴이)",
+      "publisher": "클",
+      "pub_date": "2025-05-07",
+      "description": "'일본 현지 맛집 체인 대백과', '일본 현지 간식 대백과', '일본 현지 아이스크림 대백과', '일본 현지 빵 대백과', '일본 현지 반찬 대백과', '대만 현지 쇼핑 대백과'로 구성된 세트 상품이다.",
+      "isbn": "",
+      "cover_image": "https://image.aladin.co.kr/product/36465/39/coversum/k992039814_1.jpg",
+      "category_name": "자연/여행",
+      "category_color": "#A8D5BA",
+      "price": 109000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 62,
+    "fields": {
+      "title": "리얼 방콕 - 방콕을 가장 멋지게 여행하는 방법, 2025~2026년 최신판",
+      "author": "배나영 (지은이)",
+      "publisher": "한빛라이프",
+      "pub_date": "2025-05-28",
+      "description": "",
+      "isbn": "9791194725107",
+      "cover_image": "https://image.aladin.co.kr/product/36465/53/coversum/k502039814_1.jpg",
+      "category_name": "자연/여행",
+      "category_color": "#A8D5BA",
+      "price": 21000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 63,
+    "fields": {
+      "title": "리얼 홋카이도 - 홋카이도를 가장 멋지게 여행하는 방법, 2025~2026 최신판",
+      "author": "이무늬, 이근평 (지은이)",
+      "publisher": "한빛라이프",
+      "pub_date": "2025-06-02",
+      "description": "홋카이도 여행의 가장 좋은 가이드로 수많은 독자에게 사랑받은 &lt;리얼 홋카이도&gt;가 최신 개정판으로 돌아왔다. 이번 개정판에서는 ‘파우더 스노’의 성지라 불리는 스키어들의 천국, 니세코 정보를 추가하는 한편 삿포로 외 기타 도시들의 음식점 정보를 추가해 더욱 깊이 있는 식도락을 즐길 수 있도록 했다.",
+      "isbn": "9791194725114",
+      "cover_image": "https://image.aladin.co.kr/product/36466/13/coversum/k202039816_1.jpg",
+      "category_name": "자연/여행",
+      "category_color": "#A8D5BA",
+      "price": 19000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 64,
+    "fields": {
+      "title": "리얼 파리 - 파리를 가장 멋지게 여행하는 방법, 2025~2026년 최신판",
+      "author": "황현희 (지은이)",
+      "publisher": "한빛라이프",
+      "pub_date": "2025-05-27",
+      "description": "누구나 한 번쯤은 꿈꾸는 도시, 파리를 가장 깊이 들여다볼 수 있는 &lt;리얼 파리&gt;가 2025 개정판으로 돌아왔다. 15년 넘게 유럽 여러 도시를 여행하며 쌓아온 전문 여행 작가의 깊이 있는 시선으로, 넘치는 정보 속에서 헤매지 않도록, 파리 여행에 꼭 필요한 것들만 선별해 담았다.",
+      "isbn": "9791194725084",
+      "cover_image": "https://image.aladin.co.kr/product/36466/21/coversum/k572039816_1.jpg",
+      "category_name": "자연/여행",
+      "category_color": "#A8D5BA",
+      "price": 19000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 65,
+    "fields": {
+      "title": "한국 반도체의 미래 3년 - 2027년 반도체 골든 타임, 무엇을 준비하고 실현할 것인가",
+      "author": "박준영 (지은이)",
+      "publisher": "북루덴스",
+      "pub_date": "2025-06-10",
+      "description": "",
+      "isbn": "9791198679062",
+      "cover_image": "https://image.aladin.co.kr/product/36464/79/coversum/k622039812_1.jpg",
+      "category_name": "경제/경영",
+      "category_color": "#256D1B",
+      "price": 19800
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 66,
+    "fields": {
+      "title": "창업에서 Exit까지",
+      "author": "정형학 (지은이)",
+      "publisher": "드림위드에스",
+      "pub_date": "2025-05-01",
+      "description": "",
+      "isbn": "9791192338804",
+      "cover_image": "https://image.aladin.co.kr/product/36464/94/coversum/k392039813_1.jpg",
+      "category_name": "경제/경영",
+      "category_color": "#256D1B",
+      "price": 15000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 67,
+    "fields": {
+      "title": "[세트] 빅 사이클 + 원칙 - 전2권",
+      "author": "레이 달리오 (지은이), 조용빈, 고영태 (옮긴이)",
+      "publisher": "한빛비즈",
+      "pub_date": "2025-06-03",
+      "description": "'빅 사이클', '원칙 Principles'으로 구성된 세트 상품이다.",
+      "isbn": "",
+      "cover_image": "https://image.aladin.co.kr/product/36465/2/coversum/k412039813_1.jpg",
+      "category_name": "경제/경영",
+      "category_color": "#256D1B",
+      "price": 73000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 68,
+    "fields": {
+      "title": "에이지테크 - 시니어산업, 에이지테크가 답이다",
+      "author": "김영선 (지은이)",
+      "publisher": "한국능률협회컨설팅(KMAC)",
+      "pub_date": "2025-05-23",
+      "description": "시니어산업 분야에서 기업, 기관 등 최대의 네트워크를 보유하고 있는 경희대학교 김영선 교수가 그동안 수행해 온 연구 결과들을 토대로 집필된 책이다. 이 책을 통해 에이지테크 등 시니어산업에 도전하는 기업과 기관은 물론, 시니어를 대상으로 한 산업 생태계가 확장되고 발전하는 데 기여할 수 있기를 기대하고 있다.",
+      "isbn": "9788990701619",
+      "cover_image": "https://image.aladin.co.kr/product/36465/78/coversum/8990701619_1.jpg",
+      "category_name": "경제/경영",
+      "category_color": "#256D1B",
+      "price": 18000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 69,
+    "fields": {
+      "title": "행복은 살 수 없지만 요가는 할 수 있어요 - 요가, 세계여행, 그리고 제주에서 요가원 창업",
+      "author": "곽새미 (지은이)",
+      "publisher": "푸른향기",
+      "pub_date": "2025-06-19",
+      "description": "요가 수련에서 시작해, 500일 동안 5대륙 28개 도시를 요가와 함께 여행한 기록과 제주에서 요가원을 무자본으로 창업해 지난 5년간 운영해 온 이야기를 담고 있다. 퇴사와 불안을 지나 여행과 창업을 통해 자기만의 삶을 살아가는 저자의 여정을 함께 하며, 우리는 좋아하는 일을 어떻게 ‘나답게’ 이어갈 수 있을지 자연스럽게 깨닫게 된다.",
+      "isbn": "9788967822415",
+      "cover_image": "https://image.aladin.co.kr/product/36466/22/coversum/8967822413_1.jpg",
+      "category_name": "경제/경영",
+      "category_color": "#256D1B",
+      "price": 18500
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 70,
+    "fields": {
+      "title": "모두의 행복 - 버지니아 울프와 함께 정원을 걷다",
+      "author": "버지니아 울프 (지은이), 모명숙 (옮긴이)",
+      "publisher": "열림원",
+      "pub_date": "2025-05-20",
+      "description": "버지니아 울프는 일평생 정원과 자연, 내면의 흐름을 따라가는 감각적 글쓰기를 멈추지 않았다. 『모두의 행복―버지니아 울프와 함께 정원을 걷다』는 울프의 자전적 회고와 함께 그가 문학 속에서 풀어낸 정원, 풍경, 자연에 대한 섬세한 정서를 엮은 산문집이다.",
+      "isbn": "9791170403494",
+      "cover_image": "https://image.aladin.co.kr/product/36465/46/coversum/k252039814_1.jpg",
+      "category_name": "건강/의학",
+      "category_color": "#C1E1C1",
+      "price": 18000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 71,
+    "fields": {
+      "title": "일의 기쁨과 슬픔",
+      "author": "알랭 드 보통 (지은이), 정영목 (옮긴이)",
+      "publisher": "은행나무",
+      "pub_date": "2025-05-16",
+      "description": "글을 쓰는 일을 직업으로 삼고 있는 알랭 드 보통이 다양한 일의 현장을 직접 찾아 우리에게 일이란 과연 무엇인지 생동감 넘치는 르포 형식으로 풀어낸 에세이 《일의 기쁨과 슬픔》(은행나무 刊) 개정판이 출간되었다.",
+      "isbn": "9791167375483",
+      "cover_image": "https://image.aladin.co.kr/product/36459/3/coversum/k082039716_1.jpg",
+      "category_name": "건강/의학",
+      "category_color": "#C1E1C1",
+      "price": 18000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 72,
+    "fields": {
+      "title": "[큰글자책] 힐빌리의 노래 - 위기의 가정과 문화에 대한 회고",
+      "author": "J. D. 밴스 (지은이), 김보람 (옮긴이)",
+      "publisher": "흐름출판",
+      "pub_date": "2025-06-02",
+      "description": "아마존닷컴 종합 1위, 「뉴욕타임스」 논픽션 1위, 빌 게이츠와 소설가 김훈이 추천한 화제의 책. 빈곤과 무너져가는 가족, 그 어둠 속에서 일어선 한 청년의 진솔한 성장기. '힐빌리'는 미국의 쇠락한 공업 지대인 러스트벨트 지역에 사는 가난하고 소외된 백인 하층민을 가리키는 표현이다.",
+      "isbn": "9788965967224",
+      "cover_image": "https://image.aladin.co.kr/product/36459/74/coversum/k222039818_1.jpg",
+      "category_name": "건강/의학",
+      "category_color": "#C1E1C1",
+      "price": 46000
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 73,
+    "fields": {
+      "title": "때로는 멀리 떨어져 산다",
+      "author": "소노 아야코 (지은이), 오유리 (옮긴이)",
+      "publisher": "책읽는고양이",
+      "pub_date": "2025-06-13",
+      "description": "아쿠타가와상 후보에 오르면서 문단에 데뷔한 일본의 소설가 소노 아야코의 작품 중 인생과 인간에 대한 깊은 성찰이 담긴 언어의 진수만을 선택·발췌하여 수록한 잠언집이다. 이 책은 살면서 맞닥뜨리게 되는 크고 작은 걸림돌들에 대해 때로는 엄중한 통찰의 언어로, 때로는 가벼운 반전으로 위로를 전하며, 또 자만한 이에게는 허를 찌르는 상쾌함으로 소노 아야코식 언어의 정수를 선사한다.",
+      "isbn": "9791192753386",
+      "cover_image": "https://image.aladin.co.kr/product/36450/63/coversum/k442039496_1.jpg",
+      "category_name": "건강/의학",
+      "category_color": "#C1E1C1",
+      "price": 16800
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 74,
+    "fields": {
+      "title": "한 곡 쓰기의 기술 - 제프 트위디 창작 수업",
+      "author": "제프 트위디 (지은이), 김지혜 (옮긴이)",
+      "publisher": "카라칼",
+      "pub_date": "2025-05-26",
+      "description": "노래는 어떻게 탄생할까? 음악가들조차 종종 자신이 어떻게 곡을 썼는지 설명하지 못한다. 그래서 송라이팅에는 신비주의가 쉽게 들러붙는다. 하지만 노래의 탄생이 아니라 노래 탄생의 조건은 그만큼 신비롭지 않다면? 록 밴드 윌코의 리더이자 지난 40년간 수백 곡을 써온 베테랑 송라이터 제프 트위디는 창작을 둘러싼 신비주의를 걷어내고 우리를 ‘한 곡 쓰기’의 과정으로 안내한다.",
+      "isbn": "9791191775105",
+      "cover_image": "https://image.aladin.co.kr/product/36451/47/coversum/k042039598_1.jpg",
+      "category_name": "건강/의학",
+      "category_color": "#C1E1C1",
+      "price": 19500
+    }
+  }
+]

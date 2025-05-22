@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카테고리 카드</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <style>
+        .category-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .category-card {
+            position: relative;
+            width: 250px;
+            height: 250px;
+            overflow: hidden;
+            border-radius: 12px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0.6;
+            transition: transform 0.5s ease, opacity 0.5s ease;
+        }
+
+        .category-card:hover .overlay {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+
+        .category-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: filter 0.5s ease;
+            filter: blur(3px);
+        }
+
+        .category-card:hover .category-image {
+            filter: blur(0);
+        }
+
+        .category-label {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-weight: bold;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+            font-size: 1.2rem;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="category-container">
+            <div 
+                class="category-card" 
+                v-for="category in categories" 
+                :key="category.name"
+            >
+                <div 
+                    class="overlay" 
+                    :style="{ backgroundColor: category.color }"
+                ></div>
+                <img 
+                    class="category-image" 
+                    :src="category.image" 
+                    :alt="category.name"
+                >
+                <span class="category-label">{{ category.name }}</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const { createApp } = Vue
+
+        createApp({
+            data() {
+                return {
+                    categories: [
+                        {
+                            name: '소설/시/희곡',
+                            color: '#FF6B6B',
+                            image: 'https://source.unsplash.com/random/400x400?novel'
+                        },
+                        {
+                            name: '경제/경영',
+                            color: '#4ECDC4',
+                            image: 'https://source.unsplash.com/random/400x400?business'
+                        },
+                        {
+                            name: '인문/사회/과학',
+                            color: '#45B7D1',
+                            image: 'https://source.unsplash.com/random/400x400?science'
+                        },
+                        {
+                            name: '예술/문화',
+                            color: '#96CEB4',
+                            image: 'https://source.unsplash.com/random/400x400?art'
+                        },
+                        {
+                            name: '자기계발',
+                            color: '#D4A5A5',
+                            image: 'https://source.unsplash.com/random/400x400?motivation'
+                        }
+                    ]
+                }
+            }
+        }).mount('#app')
+    </script>
+</body>
+</html>
