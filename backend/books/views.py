@@ -1,50 +1,80 @@
 from rest_framework import viewsets, status
-from rest_framework.response import Response
 from rest_framework.decorators import action
-from .models import Book, Genre, BookGenre, UserBook
-from .serializers import BookSerializer, GenreSerializer, BookGenreSerializer, UserBookSerializer
+from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
+import openai
 from django.conf import settings
-import requests
+from .models import Category, Book, Review, AIImage
+from .serializers import (
+    CategorySerializer, BookSerializer, 
+    ReviewSerializer, AIImageSerializer
+)
+
+class CategoryViewSet(viewsets.ModelViewSet):
+    queryset = Category.objects.all()
+    serializer_class = CategorySerializer
+    permission_classes = [IsAuthenticatedOrReadOnly]
+
+    @action(detail=True, methods=['post'])
+    def generate_image(self, request, pk=None):
+        """카테고리에 대한 AI 이미지 생성"""
+        category = self.get_object()
+        prompt = request.data.get('prompt', '')
+        
+        try:
+            # OpenAI API를 사용하여 이미지 생성
+            response = openai.Image.create(
+                prompt=prompt,
+                n=1,
+                size="1024x1024"
+            )
+            
+            # 생성된 이미지 URL 저장
+            image_url = response['data'][0]['url']
+            ai_image = AIImage.objects.create(
+                category=category,
+                image_url=image_url,
+                prompt=prompt
+            )
+            
+            return Response(AIImageSerializer(ai_image).data)
+        except Exception as e:
+            return Response(
+                {'error': str(e)},
+                status=status.HTTP_500_INTERNAL_SERVER_ERROR
+            )
 
 class BookViewSet(viewsets.ModelViewSet):
     queryset = Book.objects.all()
     serializer_class = BookSerializer
+    permission_classes = [IsAuthenticatedOrReadOnly]
+    
+    def get_queryset(self):
+        queryset = Book.objects.all()
+        category = self.request.query_params.get('category', None)
+        if category:
+            queryset = queryset.filter(category_id=category)
+        return queryset
 
-    @action(detail=False, methods=['get'])
-    def search(self, request):
-        query = request.query_params.get('q', None)
-        if query is None:
-            return Response({"error": "Query parameter 'q' is required."}, status=status.HTTP_400_BAD_REQUEST)
+class ReviewViewSet(viewsets.ModelViewSet):
+    queryset = Review.objects.all()
+    serializer_class = ReviewSerializer
+    permission_classes = [IsAuthenticatedOrReadOnly]
 
-        url = f"http://www.aladin.co.kr/ttb/api/ItemSearch.aspx?ttbkey={settings.ALADIN_API_KEY}&Query={query}&MaxResults=10&start=1&SearchTarget=Book&output=JS&Version=20131101"
-        response = requests.get(url)
-        if response.status_code != 200:
-            return Response({"error": "Failed to fetch data from Aladin API."}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-
-        data = response.json()
-        books = []
-        for item in data.get('item', []):
-            book_data = {
-                'title': item.get('title'),
-                'author': item.get('author'),
-                'publisher': item.get('publisher'),
-                'isbn': item.get('isbn13'),
-                'published_at': item.get('pubDate'),
-                'cover_image': item.get('cover'),
-                'description': item.get('description'),
-            }
-            books.append(book_data)
-
-        return Response(books, status=status.HTTP_200_OK)
-
-class GenreViewSet(viewsets.ModelViewSet):
-    queryset = Genre.objects.all()
-    serializer_class = GenreSerializer
-
-class BookGenreViewSet(viewsets.ModelViewSet):
-    queryset = BookGenre.objects.all()
-    serializer_class = BookGenreSerializer
-
-class UserBookViewSet(viewsets.ModelViewSet):
-    queryset = UserBook.objects.all()
-    serializer_class = UserBookSerializer
+    def perform_create(self, serializer):
+        # 리뷰 작성 시 감정 분석 수행
+        content = self.request.data.get('content', '')
+        try:
+            response = openai.Completion.create(
+                model="text-davinci-003",
+                prompt=f"Analyze the emotion in this review. Return only a number between -1 (very negative) and 1 (very positive):\n{content}",
+                max_tokens=10
+            )
+            emotion_score = float(response.choices[0].text.strip())
+        except:
+            emotion_score = 0.0
+            
+        serializer.save(
+            user=self.request.user,
+            emotion_score=emotion_score
+        )

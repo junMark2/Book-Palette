@@ -1,44 +1,49 @@
 from django.db import models
 from django.contrib.auth import get_user_model
 
-class Book(models.Model):
-    title = models.CharField(max_length=255)
-    author = models.CharField(max_length=255)
-    publisher = models.CharField(max_length=255)
-    isbn = models.CharField(max_length=13, unique=True)
-    published_at = models.DateField()
-    cover_image = models.ImageField(upload_to='book_covers/', blank=True, null=True)
-    description = models.TextField(blank=True, null=True)
+User = get_user_model()
 
-    def __str__(self):
-        return self.title
+class Category(models.Model):
+    name = models.CharField(max_length=50)
+    color = models.CharField(max_length=7)  # HEX color code
+    image = models.URLField(blank=True, null=True)
 
-class Genre(models.Model):
-    name = models.CharField(max_length=255)
-    color = models.CharField(max_length=7)
+    class Meta:
+        verbose_name_plural = 'Categories'
 
     def __str__(self):
         return self.name
 
-class BookGenre(models.Model):
-    book = models.ForeignKey(Book, on_delete=models.CASCADE)
-    genre = models.ForeignKey(Genre, on_delete=models.CASCADE)
+class Book(models.Model):
+    title = models.CharField(max_length=200)
+    author = models.CharField(max_length=200)
+    publisher = models.CharField(max_length=100)
+    pub_date = models.DateField()
+    description = models.TextField()
+    isbn = models.CharField(max_length=13, unique=True)
+    cover_image = models.URLField()
+    category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='books')
+    price = models.IntegerField(default=0)
 
     def __str__(self):
-        return f"{self.book.title} - {self.genre.name}"
+        return self.title
 
-class UserBook(models.Model):
-    STATUS_CHOICES = [
-        ('reading', 'Reading'),
-        ('completed', 'Completed'),
-        ('wishlist', 'Wishlist'),
-    ]
-
-    user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
-    book = models.ForeignKey(Book, on_delete=models.CASCADE)
-    status = models.CharField(max_length=10, choices=STATUS_CHOICES)
-    finished_at = models.DateField(blank=True, null=True)
-    personal_note = models.TextField(blank=True, null=True)
+class Review(models.Model):
+    book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='reviews')
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='reviews')
+    content = models.TextField()
+    emotion_score = models.FloatField(default=0.0)  # 감정 분석 점수 (-1.0 ~ 1.0)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return f"{self.user.username} - {self.book.title} - {self.status}"
+        return f"{self.user}'s review on {self.book}"
+
+class AIImage(models.Model):
+    category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='ai_images')
+    image_url = models.URLField()
+    prompt = models.TextField()  # AI 이미지 생성에 사용된 프롬프트
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"AI Image for {self.category}"

@@ -1,36 +1,38 @@
 from django.db import models
 from django.contrib.auth import get_user_model
-from backend.books.models import Book, Genre
+from books.models import Book
+
+User = get_user_model()
 
 class Thread(models.Model):
-    book = models.ForeignKey(Book, on_delete=models.CASCADE, null=True, blank=True)
-    user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
+    THREAD_TYPES = [
+        ('BOOK', '도서 스레드'),
+        ('FREE', '자유 스레드'),
+    ]
+
+    title = models.CharField(max_length=200)
     content = models.TextField()
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='threads')
+    book = models.ForeignKey(Book, on_delete=models.SET_NULL, null=True, blank=True, related_name='threads')
+    thread_type = models.CharField(max_length=4, choices=THREAD_TYPES)
     created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    likes = models.ManyToManyField(User, related_name='liked_threads', blank=True)
 
     def __str__(self):
-        return f"Thread by {self.user.username} on {self.book.title if self.book else 'General'}"
+        return self.title
 
 class Comment(models.Model):
-    thread = models.ForeignKey(Thread, on_delete=models.CASCADE)
-    user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
+    thread = models.ForeignKey(Thread, on_delete=models.CASCADE, related_name='comments')
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='comments')
     content = models.TextField()
+    parent = models.ForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='replies')
     created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    likes = models.ManyToManyField(User, related_name='liked_comments', blank=True)
+
+    class Meta:
+        ordering = ['created_at']
 
     def __str__(self):
-        return f"Comment by {self.user.username} on {self.thread.id}"
-
-class Like(models.Model):
-    thread = models.ForeignKey(Thread, on_delete=models.CASCADE)
-    user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
-
-    def __str__(self):
-        return f"Like by {self.user.username} on {self.thread.id}"
-
-class ColorHistory(models.Model):
-    user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
-    genre = models.ForeignKey(Genre, on_delete=models.CASCADE)
-    count = models.IntegerField()
-
-    def __str__(self):
-        return f"{self.user.username} - {self.genre.name} - {self.count}"
+        return f"Comment by {self.author} on {self.thread}"
